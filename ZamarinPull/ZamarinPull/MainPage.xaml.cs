@@ -12,6 +12,14 @@ namespace ZamarinPull
         public MainPage()
         {
             InitializeComponent();
+            DynamicLabel.Text = "test";
+            var label = new Label
+            {
+                Text = "Dynamic lable added",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.StartAndExpand
+            };
+            Layout1.Children.Add(label);
         }
     }
 }
