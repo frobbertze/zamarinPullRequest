@@ -5,6 +5,7 @@
              x:Class="ZamarinPull.MainPage">
 
     <StackLayout x:Name="Layout1">
+        <Button x:Name="Refresh" Text="Refresh" VerticalOptions="StartAndExpand"></Button>
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms Pull data test!" 
            HorizontalOptions="Center"
@@ -13,6 +14,7 @@
         <Label Text="Welcome to Xamarin.Forms Pull data test!" 
                HorizontalOptions="Center"
                VerticalOptions="StartAndExpand" />
+       
     </StackLayout>
 
 </ContentPage>
